@@ -6,3 +6,10 @@ Read the documentation of this method at https://docs.python.org/3.5/library/std
 write an invocation that counts the number of times the letter a occurs in "banana".
 
 """
+
+#method Name; str.count(sub[,start[,end]])
+
+count = 'bananna'.count('a', 2, 5)
+print(count)
+
+print('bannana'[0:5]) #substring

@@ -13,3 +13,14 @@ When the loop exits, count contains the result: the total number of a's.
 Exercise 3:
 Encapsulate this code in a function named count, and generalize it so that it accepts the string and the letter as arguments.
 """
+
+
+def counta(word):
+    count = 0
+    for letter in word:
+        if letter == 'a':
+            count = count + 1
+    return count  #
+
+
+print(counta("orange"))

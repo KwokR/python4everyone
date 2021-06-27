@@ -8,6 +8,4 @@ You might want to experiment with some of them to make sure you understand how t
 
 The documentation uses a syntax that might be confusing. For example, in find(sub[, start[, end]]), the brackets indicate optional arguments.
 So sub is required, but start is optional, and if you include start, then end is optional.
-
-
 """
